@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { BasicComponentsModule } from './basic-components/basic-components.module';
 
 
-
 @NgModule({
   declarations: [],
   imports: [
