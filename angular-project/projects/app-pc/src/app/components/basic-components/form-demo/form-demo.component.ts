@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-form-demo',
@@ -12,6 +12,10 @@ export class FormDemoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  initProfileForm() {
+
   }
 
 }
