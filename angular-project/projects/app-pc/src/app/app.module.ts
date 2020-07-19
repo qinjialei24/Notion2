@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { CommonModule } from 'common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,7 +11,6 @@ import { PagesModule } from './pages/pages.module';
   ],
   imports: [
     BrowserModule,
-    CommonModule,
     PagesModule,
     AppRoutingModule
   ],

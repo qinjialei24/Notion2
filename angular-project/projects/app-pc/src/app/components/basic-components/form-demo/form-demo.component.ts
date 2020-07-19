@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { CommonService } from 'common';
-
 
 @Component({
   selector: 'app-form-demo',
@@ -12,13 +10,11 @@ export class FormDemoComponent implements OnInit {
   name = new FormControl('');
 
   constructor(
-    private commonService: CommonService
   ) {
 
   }
 
   ngOnInit() {
-    this.commonService.log();
   }
 
   initProfileForm() {
