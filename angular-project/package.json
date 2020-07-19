@@ -9,6 +9,7 @@
     "build common": "ng build common",
     "dev common": "ng build common --watch",
     "build global-module": "ng build global-module",
+    "build demo": "ng build demo",
     "dev global-module": "ng build global-module --watch",
     "test": "ng test",
     "lint": "ng lint",

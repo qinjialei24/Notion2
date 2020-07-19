@@ -30,6 +30,12 @@
       ],
       "global-module/*": [
         "dist/global-module/*"
+      ],
+      "demo": [
+        "dist/demo"
+      ],
+      "demo/*": [
+        "dist/demo/*"
       ]
     }
   },
