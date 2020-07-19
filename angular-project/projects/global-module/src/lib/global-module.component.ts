@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'gl-global-module',
   template: `
     <p>
-      global-module works!
+      global-module works233444!
     </p>
   `,
   styles: []
