@@ -6,8 +6,10 @@
     "start-pc": "ng serve app-pc --open --port=4205",
     "start-h5": "ng serve app-h5 --open --port=4206",
     "build": "ng build",
-    "build-common": "ng build common",
-    "debugger-common": "ng build common --watch",
+    "build common": "ng build common",
+    "dev common": "ng build common --watch",
+    "build global-module": "ng build global-module",
+    "dev global-module": "ng build global-module --watch",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

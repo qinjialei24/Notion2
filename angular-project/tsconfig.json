@@ -24,6 +24,12 @@
       ],
       "common/*": [
         "dist/common/*"
+      ],
+      "global-module": [
+        "dist/global-module"
+      ],
+      "global-module/*": [
+        "dist/global-module/*"
       ]
     }
   },
