@@ -6,4 +6,7 @@ import { Injectable } from '@angular/core';
 export class CommonService {
 
   constructor() { }
+  log() {
+    console.log(6666666);
+  }
 }

@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve app-pc --open --port=4205",
+    "start-pc": "ng serve app-pc --open --port=4205",
     "start-h5": "ng serve app-h5 --open --port=4206",
     "build": "ng build",
+    "build-common": "ng build common",
+    "debugger-common": "ng build common --watch",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
