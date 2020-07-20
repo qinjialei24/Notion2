@@ -2,15 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormDemoComponent } from './form-demo/form-demo.component';
 import { ReactiveFormsModule } from '@angular/forms';
-// import { ApiService } from 'global-module';
-// import { ApiService } from 'common';
+import { BaLayoutComponent } from './ba-layout/ba-layout.component';
 
 @NgModule({
-  declarations: [FormDemoComponent],
+  declarations: [FormDemoComponent, BaLayoutComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
   ],
-  exports: [FormDemoComponent]
+  exports: [FormDemoComponent, BaLayoutComponent]
 })
 export class BasicComponentsModule { }
