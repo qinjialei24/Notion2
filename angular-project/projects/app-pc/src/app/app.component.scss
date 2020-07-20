@@ -1,0 +1,13 @@
+.notion2-app {
+  display: flex;
+  height: 100vh;
+
+  .nav {
+    width: 100px;
+    background-color: red;
+  }
+  .content {
+    background-color: blue;
+    flex: 1;
+  }
+}
