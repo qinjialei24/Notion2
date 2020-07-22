@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BuNavigatorComponent } from './bu-navigator.component';
+import { BuSidebarComponent } from './bu-sidebar.component';
 
-describe('BuNavigatorComponent', () => {
-  let component: BuNavigatorComponent;
-  let fixture: ComponentFixture<BuNavigatorComponent>;
+describe('BuSidebarComponent', () => {
+  let component: BuSidebarComponent;
+  let fixture: ComponentFixture<BuSidebarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BuNavigatorComponent ]
+      declarations: [ BuSidebarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BuNavigatorComponent);
+    fixture = TestBed.createComponent(BuSidebarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

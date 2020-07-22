@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BuNavigatorComponent } from './bu-navigator/bu-navigator.component';
+import { BuSidebarComponent } from './bu-sidebar/bu-sidebar.component';
 import { BasicComponentsModule } from '../basic-components/basic-components.module';
 import { BuContentComponent } from './bu-content/bu-content.component';
 
 
 
 @NgModule({
-  declarations: [BuNavigatorComponent, BuContentComponent],
+  declarations: [BuSidebarComponent, BuContentComponent],
   imports: [
     CommonModule,
     BasicComponentsModule
   ],
-  exports: [BuNavigatorComponent]
+  exports: [BuSidebarComponent]
 })
 export class BusinessComponentsModule { }
