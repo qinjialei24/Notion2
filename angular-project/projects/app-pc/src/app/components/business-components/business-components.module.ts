@@ -12,6 +12,6 @@ import { BuContentComponent } from './bu-content/bu-content.component';
     CommonModule,
     BasicComponentsModule
   ],
-  exports: [BuSidebarComponent]
+  exports: [BuSidebarComponent, BuContentComponent]
 })
 export class BusinessComponentsModule { }
