@@ -6,9 +6,10 @@ import { BaLayoutComponent } from './ba-layout/ba-layout.component';
 import { BaNavigatorComponent } from './ba-navigator/ba-navigator.component';
 import { BaFormComponent } from './ba-form/ba-form.component';
 import { BaFormItemComponent } from './ba-form-item/ba-form-item.component';
+import { BaTreeComponent } from './ba-tree/ba-tree.component';
 
 @NgModule({
-  declarations: [FormDemoComponent, BaLayoutComponent, BaNavigatorComponent, BaFormComponent, BaFormItemComponent],
+  declarations: [FormDemoComponent, BaLayoutComponent, BaNavigatorComponent, BaFormComponent, BaFormItemComponent, BaTreeComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
