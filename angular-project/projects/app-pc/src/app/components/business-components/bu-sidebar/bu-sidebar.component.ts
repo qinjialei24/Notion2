@@ -9,6 +9,23 @@ export class BuSidebarComponent implements OnInit {
 
   constructor() { }
 
+  tree = [{
+    name: 'root',
+    children: [{
+      name: 'node1'
+    }, {
+      name: 'node2',
+      children: [{
+        name: 'node21'
+      }]
+    }, {
+      name: 'node3',
+      children: [{
+        name: 'node31'
+      }]
+    }]
+  }];
+
   ngOnInit() {
   }
 

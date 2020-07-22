@@ -8,11 +8,16 @@ import { BaFormItemComponent } from './ba-form-item/ba-form-item.component';
 import { BaTreeComponent } from './ba-tree/ba-tree.component';
 
 @NgModule({
-  declarations: [FormDemoComponent, BaLayoutComponent, BaFormComponent, BaFormItemComponent, BaTreeComponent],
+  declarations: [
+    FormDemoComponent,
+    BaLayoutComponent,
+    BaFormComponent,
+    BaFormItemComponent,
+    BaTreeComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
   ],
-  exports: [FormDemoComponent, BaLayoutComponent]
+  exports: [FormDemoComponent, BaLayoutComponent, BaTreeComponent]
 })
 export class BasicComponentsModule { }
