@@ -4,9 +4,11 @@ import { FormDemoComponent } from './form-demo/form-demo.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BaLayoutComponent } from './ba-layout/ba-layout.component';
 import { BaNavigatorComponent } from './ba-navigator/ba-navigator.component';
+import { BaFormComponent } from './ba-form/ba-form.component';
+import { BaFormItemComponent } from './ba-form-item/ba-form-item.component';
 
 @NgModule({
-  declarations: [FormDemoComponent, BaLayoutComponent, BaNavigatorComponent],
+  declarations: [FormDemoComponent, BaLayoutComponent, BaNavigatorComponent, BaFormComponent, BaFormItemComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
