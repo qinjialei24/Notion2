@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <bu-form [formData]="formData" [rules]="rules">
+      <bu-form-item label="Bees ID" prop="beesID">
+        <input [(ngModel)]="formData.beesID" />
+      </bu-form-item>
+      <bu-form-item label="邮箱">
+        <input />
+      </bu-form-item>
+    </bu-form>
+  </body>
+  
+  <script>
+    const formData = {
+      beesID: "beesID1234",
+      age: "18",
+    };
+
+    const rules = {
+      beesID: {},
+    };
+  </script>
+</html>

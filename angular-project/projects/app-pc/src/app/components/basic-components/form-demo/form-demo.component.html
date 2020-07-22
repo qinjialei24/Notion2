@@ -1,4 +1,6 @@
-<label>
-  Name:
-  <input [formControl]="name" />3333333
-</label>
+<form [formGroup]="form">
+  <label>
+    Name:
+    <input formControlName="name" />
+  </label>
+</form>
