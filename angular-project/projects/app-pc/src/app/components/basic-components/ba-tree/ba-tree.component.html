@@ -1,4 +1,4 @@
-<ul *ngIf="!collapse">
+<!-- <ul *ngIf="!collapse">
   <li *ngFor="let node of treeData">
     <a
       class="ngg-tree-node"
@@ -27,4 +27,11 @@
     >
     </app-ba-tree>
   </li>
-</ul>
+</ul> -->
+
+<div class="ba-tree" *ngIf="!collapse">
+  <div class="ba-tree-item">
+    <div class="ba-tree-item-button"></div>
+    <div class="ba-tree-item-content"></div>
+  </div>
+</div>

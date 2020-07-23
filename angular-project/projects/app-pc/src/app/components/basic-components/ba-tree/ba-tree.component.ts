@@ -17,7 +17,7 @@ export class BaTreeComponent implements OnInit, OnChanges {
   }
 
 
-
+  // https://stackblitz.com/edit/angular-tree-1-gaatim?file=src%2Fstyles.scss
   ngOnChanges(changes: SimpleChanges): void {
     if (changes && changes.treeData) {
       if (this.isRoot) {      // 如是根节点:rawData与treeData指向同一数据对象
